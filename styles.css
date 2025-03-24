@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Quotation Container */
+.quotation-container {
+    width: 850px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    border-bottom: 2px solid #d9534f;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    color: #d9534f;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Company Information */
+.company-info {
+    background-color: #fafafa;
+    padding: 15px;
+    border-left: 4px solid #d9534f;
+    margin-bottom: 15px;
+    text-align: center; /* Center align all text */
+}
+
+.company-info h2 {
+    color: #d9534f;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: uppercase; /* Makes company name stand out */
+}
+
+.company-info p {
+    font-size: 14px;
+    color: #444;
+    margin: 3px 0;
+}
+
+/* Customer Details */
+.customer-info {
+    background-color: #eef5f9;
+    padding: 15px;
+    border-left: 4px solid #0275d8;
+    margin-bottom: 15px;
+}
+
+.customer-info h3 {
+    color: #0275d8;
+    font-size: 16px;
+}
+
+/* Table Styling */
+.table-section {
+    margin-top: 20px;
+}
+
+.table-section h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #d9534f;
+    color: white;
+    font-size: 14px;
+}
+
+td {
+    font-size: 14px;
+}
+
+/* Total Section */
+.total-section {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.total-section h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.total-section p {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Bank Details */
+.bank-details {
+    background-color: #eef5f9;
+    padding: 15px;
+    border-left: 4px solid #5bc0de;
+    margin-top: 15px;
+}
+
+.bank-details h3 {
+    color: #5bc0de;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    color: #777;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 900px) {
+    .quotation-container {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    table, th, td {
+        font-size: 12px;
+    }
+}
