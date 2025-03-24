@@ -43,11 +43,6 @@ This file **enhances the appearance** of the quotation document by:
 1. Download both **`quotation.html`** and **`styles.css`**.  
 2. Open `quotation.html` in any **web browser** (Chrome, Firefox, Edge).  
 
-### Option 2: Live GitHub Pages (If Hosted)  
-If GitHub Pages is enabled for this repository, you can view the document online at:  
-🔗 **[Live Quotation Document](https://yourusername.github.io/Quotation-Document/)**  
----
-
 ## Future Enhancements  
 - Add **JavaScript functionality** for interactive features (e.g., dynamic price calculations).  
 - Implement a **form-based input** to generate new quotations easily.  
